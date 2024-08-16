@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+<body>
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="quemsomos.html">Área interna</a>
+        <a href="contato.html">Contato</a>
+        <a href="interna/login.html">Login</a>
+        <a href="promocoes.html">Promocoes</a>
+        <a href="lojas.html">Lojas</a>
+    </nav>
+    
+     <h1>Preencha o Formulário</h1>
+    <form action="processa.html" method="post">
+        <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" 
+        required="true" />
+         </div>
+         <div>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="Telefone" 
+            name="Telefone" />
+        </div>
+        <div>
+        <label for="Motivo">Motivo</label>
+        <input type="text" id="Motivo" 
+            name="Motivo" value="recla"/>
+        </div>
+        <div>
+        <input type="radio" id="Reclamação" />
+        <label>Reclamação</label>
+        </div>
+        <div>
+        <input type="radio" id="Elogio" />
+        <label>Elogio</label>
+        </div>
+        <input type="radio" id="Motivo" 
+            name="Motivo" value="suge" />
+            <labe>Sugestão</labe>
+        </div>
+        <div>
+            <select id="motivo2" name="motivo2">
+                <option value="sugestão">Sugestão</option>
+                <option value="elogio">Elogio</option>
+                <option value="reclamação">Reclamação</option>
+            </select>
+        </div>
+        <div>
+        <label for="e_mail">E-mail</label>
+        <input type="email" id="email" 
+            name="e_mail" />
+        </div>
+        <div>
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="Mensagem"></textarea>
+        </div>
+        <input type="mensagem" id="Mensagem" name="Mensagem" />
+
+        <input type="submit" value="Entrar" />
+        <input type="reset" value="Limpar" />
+    </form>
+</body>
+</html>
