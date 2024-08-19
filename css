@@ -1,0 +1,26 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 0, 149);
+}
+
+p{
+    color: #05230c;
+}
+
+label{
+    color: #ff0000;
+}
+
+div{
+    padding-bottom: 10px;
+}
+
+#especial{
+    text-align: right;
+    color: rgb(159 , 159 , 33);
+}
