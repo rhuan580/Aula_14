@@ -1,0 +1,18 @@
+altura =float(input("Altura: "))
+sexo = input("Sexo: ")
+# >Maior >=Maior igual
+#<Menor <=Menor igual
+# ==Igual(comparação) !=Diferente
+
+#Operadores lógicos
+#and (e -> &&)
+#or (ou -> ||)
+#not (não -> !)
+if sexo == 'm' or sexo == 'M':
+   peso = (72.7 * altura) - 58
+elif sexo == 'f' or sexo == 'F':
+   peso = (62.1 * altura) - 44.7
+else:
+   print("Sexo invalido")   
+print(f"O seu peso ideal é {peso:.3f}")   
+
